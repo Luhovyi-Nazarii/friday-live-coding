@@ -1,21 +1,9 @@
-@import 'fonts';
+html {
+  font-size: 10px;
 
-$back: rgb(158, 83, 70);
+}
 
 body {
-  font-family: 'Segoe UI';
-  font-weight: normal;
-  background-color: $back;
-  user-select: none;
-}
-h1 {
-  font-family: 'Segoe UI';
-  font-weight: normal;
-}
-
-.image {
-  width: 500px;
-  height: 500px;
-  background-size: cover;
-  background-image: url('../image/1.jpg');
+  font-size: 1.6rem;
+  font-family: 'Open Sans', Verdana, sans-serif;
 }

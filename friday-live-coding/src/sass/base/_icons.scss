@@ -24,6 +24,30 @@
   }
 }
 
+.icon-round {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  &_white {
+      background-color: $color-light;
+  }
+}
+
+.icon__contact-us {
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $color-light;  
+}
+
+
+
 .ico_play {
   width: 18px;
   height: 19px;
@@ -54,4 +78,16 @@
   background-image: url("../image/icons/watch.svg");
 }
 
+
+.ico_phone {
+  width: 13px;
+  height: 13px;
+  background-image: url("../image/icons/tel.svg");
+}
+
+.ico_letter {
+  width: 11px;
+  height: 8px;
+  background-image: url("../image/icons/email.svg");
+}
 

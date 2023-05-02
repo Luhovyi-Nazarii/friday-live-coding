@@ -1,4 +1,3 @@
-
 .navigation {
   display: flex;
   font-size: 1.5rem;
@@ -12,5 +11,11 @@
   @extend %transition;
   &:hover {
     color: $color-primary;
+  }
+}
+
+.header__navigation {
+  @include media-tablet {
+    display: none;
   }
 }

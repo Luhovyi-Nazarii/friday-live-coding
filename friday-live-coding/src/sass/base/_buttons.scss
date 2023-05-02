@@ -33,6 +33,7 @@
   @extend %font-add;
   display: inline-flex;
   align-items: center;
+  transition: .3s;
 }
 
 .link-button__text {
